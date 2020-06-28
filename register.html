@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/register.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <title>Register</title>
+</head>
+
+<body>
+  <header class="hero-image">
+      <nav class="navbar">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="curriculum.html">Curriculum</a></li>
+          <li><a href="volunteer.html">Volunteer</a></li>
+          <li><a href="register.html">Registration</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </nav>
+      <div class="hero-text">
+        <h1>Register</h1>
+      </div>
+  </header>
+    <form class="register">
+        <p class="reg-label"><label for="firstname">First Name</label></p>
+        <p></p><input type="text" id="firstname" name="firstname"></p>
+
+        <p class="reg-label"><label for="lastname">Last Name</label></p>
+        <p><input type="text" id="lastname" name="lastname"></p>
+
+        <p class="reg-label"><label for="email">Email</label></p>
+        <p><input type="text" id="email" name="email"></p>
+
+        <p class="reg-label"><label for="involved">How Would You Like To Get Involved?</label></p>
+        <select id="involved" name="involved">
+            <option value="Volunteer">Volunteer</option>
+            <option value="Join The Program">Join The Program</option>
+        </select>
+
+        <p><label for="textarea">Message</label></p>
+        <p><textarea id="textarea" placeholder="Leave message here..."></textarea></p>
+        <button class="button" type="submit">Submit</button>
+    </form>
+
+    <footer class="footer">
+        <p>&copy; Ready Set Life 2020</p>
+      </footer>
+
+</body>
+
+</html>
